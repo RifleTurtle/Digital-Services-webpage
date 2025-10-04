@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    background: linear-gradient(45deg,
+     rgb(0, 0, 0) 0%,
+     rgb(8, 8, 41) 20%,
+     rgb(25, 33, 87) 40%,
+     rgb(26, 27, 54) 50%,
+     rgb(25, 33, 87) 60%, 
+     rgb(8, 8, 41) 80%, 
+     rgb(0, 0, 0) 100%);
+    }
+
+#topBar {
+  background: linear-gradient(45deg,
+        rgb(0, 0, 0) 0%,
+        rgb(8, 8, 41) 20%,
+        rgb(0, 0, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+
+    top: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    gap: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navButton {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 5px;
+}
+.navButton:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+#body1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    overflow: visible;
+}
+#body1background {
+    background: linear-gradient(45deg,
+        rgb(0, 0, 0) 0%,
+        rgb(8, 8, 41) 20%,
+        rgb(0, 0, 0) 100%);
+        position: absolute;
+
+    width: 100%;
+    height: 100%;
+}
+#mainPic {
+     width: 100%;
+    height: 100%;
+    opacity: 0.1; /* 50% transparent */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+#projects {
+    width: fixed;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    z-index: 2;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0);
+    gap: 20px;
+    top: 30%
+}
+
+
+.projectContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+    gap: 150px;
+    z-index: 4;
+}
+
+.project {
+    background-color: rgb(15, 15, 15);
+    border-radius: 10px;
+    border: solid 4px rgb(31, 24, 53);
+    padding: 150px;
+    width: 120px;      /* Set your desired width */
+    height: 80px;
+    text-align: center;
+    transition: background-color 0.5s, transform 0.6s;
+    gap: 20px;
+    z-index: 4;
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.project:hover {
+   background-color: rgb(48, 48, 48);
+   transform: scale(1.05);
+}
+
+
+
+
+
+
+
+#line {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(133, 114, 219);
+    margin: 0 auto;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+
+
+#what {
+    position: relative;
+    width: 100%;
+    height: 90px;
+    background: linear-gradient(45deg,
+        rgb(0, 0, 0) 0%,
+        rgb(8, 8, 41) 20%,
+        rgb(0, 0, 0) 100%);
+    border: solid 2px rgb(35, 17, 48);
+    margin-top: 400px;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    transition: transform 1s, font-size 1s;
+}
+#what:hover {
+    font-size: 50px;
+}
+
+#body2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+}
+.interest {
+    background-color: rgb(248, 94, 5);
+    border: 5px solid rgb(63, 36, 143);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    width: 250px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.interest:hover {
+     transform: scale(1.05);
+}
+
+.interestTitle {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#footer {
+    padding-top: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    bottom: 0;
+    padding-bottom: 20px;
+}
