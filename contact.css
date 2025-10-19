@@ -185,3 +185,13 @@ p {
     transform: scale(1.1);
     background-color: rgb(25, 33, 87);
 }
+
+@media (max-width: 800px) {
+    #social {
+        flex-direction: column;
+        gap: 50px;
+        left: 0;
+        width: 100%;
+    }
+}
+
