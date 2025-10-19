@@ -196,3 +196,13 @@ body {
     background-color: rgb(25, 33, 87);
 }
 
+@media (max-width: 600px) {
+  .interest {
+    display: block;
+    padding: 10px;
+  }
+
+  .sidebar, .main {
+    width: 100%;
+  }
+}
