@@ -35,12 +35,14 @@ body {
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s, transform 0.3s;
+    transition: background-color 0.3s, transform 0.3s, color 0.2s;
     border-radius: 5px;
 }
 .navButton:hover {
     transform: scale(1.2);
+    color: rgb(240, 76, 76);
 }
+
 
 
 
@@ -104,7 +106,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
     padding: 20px;
     gap: 150px;
     z-index: 4;
@@ -113,7 +115,7 @@ body {
 .project {
     background-color: rgb(15, 15, 15);
     border-radius: 10px;
-    border: solid 4px rgb(31, 24, 53);
+    border: solid 8px rgb(31, 24, 53);
     padding: 150px;
     width: 120px;      
     height: 80px;
@@ -183,7 +185,6 @@ body {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     color: white;
-    padding: 20px;
     margin: 20px;
     width: 250px;
     text-align: center;
@@ -223,8 +224,38 @@ body {
     transition: transform 0.3s;
     cursor: pointer;
     border-radius: 15px;
+     z-index: 10;
 }
 #back2top:hover {
     transform: scale(1.1);
     background-color: rgb(25, 33, 87);
+}
+
+
+#calculator {
+    background-image: url("vecteezy_close-up-of-a-silver-calculator-with-black-buttons-on-a_70663163.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+     
+
+}
+
+#webapp{
+    background-image: url("Screenshot\ 2024-10-14\ 203716.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    
+}
+
+#webpage{
+    background-image: url("Screenshot\ 2024-05-27\ 045642.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
 }

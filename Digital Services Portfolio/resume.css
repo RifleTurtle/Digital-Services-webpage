@@ -35,12 +35,15 @@ body {
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s, transform 0.3s;
+    transition: background-color 0.3s, transform 0.3s, color 0.2s;
     border-radius: 5px;
 }
 .navButton:hover {
     transform: scale(1.2);
+    color: rgb(240, 76, 76);
 }
+
+
 
 
 
@@ -206,6 +209,7 @@ li {
     transition: transform 0.3s;
     cursor: pointer;
     border-radius: 15px;
+    z-index: 10;
 }
 #back2top:hover {
     transform: scale(1.1);

@@ -54,6 +54,7 @@ body {
     height: 100vh;
     position: relative;
     overflow: visible;
+
 }
 #body1background {
     background: linear-gradient(45deg,
@@ -118,10 +119,27 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding: 20px;
+    padding: 50px;
     color: white;
     font-size: 20px;
+    border-radius: 15px;
 }
+
+
+
+#linked {
+    width: 400px;
+    background-color: rgb(89, 89, 214, 0.2);
+}
+
+#email {
+    background-color: rgb(255, 0, 0, 0.2);
+}
+
+#git {
+    background-color: rgba(35, 6, 59, 0.2);
+}
+
 
 #footer {
     padding-top:300px;
@@ -133,6 +151,7 @@ body {
     padding-bottom: 20px;
 }
 
+
 p {
     position: absolute;
     margin-top:  20px;
@@ -143,6 +162,8 @@ p {
     z-index: 7;
     font-style: oblique;
 }
+
+
 
 #back2top {
     font-size: 20px;
@@ -158,6 +179,7 @@ p {
     transition: transform 0.3s;
     cursor: pointer;
     border-radius: 15px;
+    z-index: 10;
 }
 #back2top:hover {
     transform: scale(1.1);

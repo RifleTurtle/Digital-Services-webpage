@@ -38,11 +38,12 @@ body {
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s, transform 0.3s;
+    transition: background-color 0.3s, transform 0.3s, color 0.2s;
     border-radius: 5px;
 }
 .navButton:hover {
     transform: scale(1.2);
+    color: rgb(240, 76, 76);
 }
 
 
@@ -152,14 +153,11 @@ body {
     padding: 20px;
     margin: 20px;
     width: 250px;
-    height: 150px;
+    height: auto;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition: transform 0.3s, box-shadow 0.3s;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-   
-    
+
 }
 .interest:hover {
      transform: scale(1.05);
@@ -191,6 +189,7 @@ body {
     transition: transform 0.3s;
     cursor: pointer;
     border-radius: 15px;
+    z-index: 10;
 }
 #back2top:hover {
     transform: scale(1.1);
